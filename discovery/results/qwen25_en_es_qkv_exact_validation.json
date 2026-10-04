@@ -1,0 +1,5712 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "language_pair": "en->es",
+  "n_pairs": 20,
+  "top_k": 30,
+  "spearman_rho": 0.5385984427141268,
+  "spearman_p": 0.002136576956873909,
+  "summary": [
+    {
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": -0.05889936536550522,
+      "exact_mean": 2.325152635574341,
+      "exact_mean_abs": 2.634780168533325,
+      "exact_std": 2.517176628112793,
+      "sign_agreement": 0.2
+    },
+    {
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": 0.1805662214756012,
+      "exact_mean": 0.2901700437068939,
+      "exact_mean_abs": 0.3932618498802185,
+      "exact_std": 0.5156232714653015,
+      "sign_agreement": 0.7
+    },
+    {
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "attribution_mean": 0.11590202152729034,
+      "exact_mean": -0.1905525177717209,
+      "exact_mean_abs": 0.3771982192993164,
+      "exact_std": 0.7114849090576172,
+      "sign_agreement": 0.45
+    },
+    {
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "attribution_mean": 0.09735769033432007,
+      "exact_mean": 0.1398763656616211,
+      "exact_mean_abs": 0.1574842482805252,
+      "exact_std": 0.21237197518348694,
+      "sign_agreement": 0.85
+    },
+    {
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": 0.12495088577270508,
+      "exact_mean": 0.11742477118968964,
+      "exact_mean_abs": 0.19162340462207794,
+      "exact_std": 0.2116367071866989,
+      "sign_agreement": 0.7
+    },
+    {
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": 0.07456807047128677,
+      "exact_mean": 0.10084829479455948,
+      "exact_mean_abs": 0.11997900158166885,
+      "exact_std": 0.1322019249200821,
+      "sign_agreement": 0.8
+    },
+    {
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": 0.13226763904094696,
+      "exact_mean": 0.10049028694629669,
+      "exact_mean_abs": 0.16340255737304688,
+      "exact_std": 0.20461073517799377,
+      "sign_agreement": 0.6
+    },
+    {
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "attribution_mean": 0.058557070791721344,
+      "exact_mean": 0.07149167358875275,
+      "exact_mean_abs": 0.10398821532726288,
+      "exact_std": 0.12109989672899246,
+      "sign_agreement": 0.75
+    },
+    {
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "attribution_mean": 0.05996941402554512,
+      "exact_mean": 0.06944546848535538,
+      "exact_mean_abs": 0.08036961406469345,
+      "exact_std": 0.1782594472169876,
+      "sign_agreement": 0.7
+    },
+    {
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "attribution_mean": 0.061333488672971725,
+      "exact_mean": 0.06449584662914276,
+      "exact_mean_abs": 0.07177658379077911,
+      "exact_std": 0.07244346290826797,
+      "sign_agreement": 0.9
+    },
+    {
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "attribution_mean": 0.08030162006616592,
+      "exact_mean": 0.06372608989477158,
+      "exact_mean_abs": 0.08075203746557236,
+      "exact_std": 0.08466432243585587,
+      "sign_agreement": 0.65
+    },
+    {
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "attribution_mean": 0.06630752980709076,
+      "exact_mean": 0.060567665845155716,
+      "exact_mean_abs": 0.08460254967212677,
+      "exact_std": 0.10466817766427994,
+      "sign_agreement": 0.7
+    },
+    {
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "attribution_mean": 0.1350407898426056,
+      "exact_mean": 0.05294365808367729,
+      "exact_mean_abs": 0.055329181253910065,
+      "exact_std": 0.04234995320439339,
+      "sign_agreement": 0.9
+    },
+    {
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "attribution_mean": 0.05207105353474617,
+      "exact_mean": 0.05240335315465927,
+      "exact_mean_abs": 0.0852588638663292,
+      "exact_std": 0.28702443838119507,
+      "sign_agreement": 0.35
+    },
+    {
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "attribution_mean": 0.10400048643350601,
+      "exact_mean": 0.04838128015398979,
+      "exact_mean_abs": 0.06783042103052139,
+      "exact_std": 0.09693421423435211,
+      "sign_agreement": 0.5
+    },
+    {
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "attribution_mean": 0.08915586024522781,
+      "exact_mean": 0.044904567301273346,
+      "exact_mean_abs": 0.05935921519994736,
+      "exact_std": 0.07521237432956696,
+      "sign_agreement": 0.7
+    },
+    {
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "attribution_mean": -0.09492208063602448,
+      "exact_mean": -0.0448918342590332,
+      "exact_mean_abs": 0.04788370057940483,
+      "exact_std": 0.04531822353601456,
+      "sign_agreement": 0.85
+    },
+    {
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "attribution_mean": 0.07233358174562454,
+      "exact_mean": 0.029724646359682083,
+      "exact_mean_abs": 0.05855917930603027,
+      "exact_std": 0.0720236748456955,
+      "sign_agreement": 0.65
+    },
+    {
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "attribution_mean": -0.07616065442562103,
+      "exact_mean": -0.027295446023344994,
+      "exact_mean_abs": 0.03719067573547363,
+      "exact_std": 0.08453033119440079,
+      "sign_agreement": 0.55
+    },
+    {
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "attribution_mean": -0.057030342519283295,
+      "exact_mean": -0.023651123046875,
+      "exact_mean_abs": 0.03944072872400284,
+      "exact_std": 0.04222114011645317,
+      "sign_agreement": 0.6
+    },
+    {
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "attribution_mean": 0.05939701944589615,
+      "exact_mean": 0.023135662078857422,
+      "exact_mean_abs": 0.05264701694250107,
+      "exact_std": 0.07148202508687973,
+      "sign_agreement": 0.8
+    },
+    {
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "attribution_mean": -0.06515806913375854,
+      "exact_mean": -0.021283959969878197,
+      "exact_mean_abs": 0.028104256838560104,
+      "exact_std": 0.05499764159321785,
+      "sign_agreement": 0.55
+    },
+    {
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "attribution_mean": 0.06830701977014542,
+      "exact_mean": 0.02053976058959961,
+      "exact_mean_abs": 0.07289409637451172,
+      "exact_std": 0.09533193707466125,
+      "sign_agreement": 0.65
+    },
+    {
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "attribution_mean": -0.062717005610466,
+      "exact_mean": -0.018706321716308594,
+      "exact_mean_abs": 0.03180112689733505,
+      "exact_std": 0.07586070150136948,
+      "sign_agreement": 0.6
+    },
+    {
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "attribution_mean": 0.06538015604019165,
+      "exact_mean": 0.017656754702329636,
+      "exact_mean_abs": 0.021866559982299805,
+      "exact_std": 0.026101129129529,
+      "sign_agreement": 0.65
+    },
+    {
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "attribution_mean": -0.05423036962747574,
+      "exact_mean": -0.014680957421660423,
+      "exact_mean_abs": 0.03795566409826279,
+      "exact_std": 0.058024533092975616,
+      "sign_agreement": 0.45
+    },
+    {
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "attribution_mean": -0.05094047635793686,
+      "exact_mean": -0.011862230487167835,
+      "exact_mean_abs": 0.04296603053808212,
+      "exact_std": 0.054345618933439255,
+      "sign_agreement": 0.5
+    },
+    {
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "attribution_mean": 0.052785396575927734,
+      "exact_mean": 0.010317230597138405,
+      "exact_mean_abs": 0.023856639862060547,
+      "exact_std": 0.05743923410773277,
+      "sign_agreement": 0.55
+    },
+    {
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "attribution_mean": 0.07218695431947708,
+      "exact_mean": -0.008151436224579811,
+      "exact_mean_abs": 0.029003238305449486,
+      "exact_std": 0.0634099692106247,
+      "sign_agreement": 0.55
+    },
+    {
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "attribution_mean": -0.1096675768494606,
+      "exact_mean": -0.007460641674697399,
+      "exact_mean_abs": 0.05796990543603897,
+      "exact_std": 0.09991993755102158,
+      "sign_agreement": 0.6
+    }
+  ],
+  "rows": [
+    {
+      "flores_index": 0,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.669364929199219,
+      "exact_effect": 0.23429298400878906
+    },
+    {
+      "flores_index": 0,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.816271781921387,
+      "exact_effect": 0.0873861312866211
+    },
+    {
+      "flores_index": 0,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.965554237365723,
+      "exact_effect": -0.061896324157714844
+    },
+    {
+      "flores_index": 0,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.478960990905762,
+      "exact_effect": 0.4246969223022461
+    },
+    {
+      "flores_index": 0,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.820281982421875,
+      "exact_effect": 0.08337593078613281
+    },
+    {
+      "flores_index": 0,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.901947975158691,
+      "exact_effect": 0.0017099380493164062
+    },
+    {
+      "flores_index": 0,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.8185396194458,
+      "exact_effect": 0.08511829376220703
+    },
+    {
+      "flores_index": 0,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.895874977111816,
+      "exact_effect": 0.007782936096191406
+    },
+    {
+      "flores_index": 0,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.899959564208984,
+      "exact_effect": 0.0036983489990234375
+    },
+    {
+      "flores_index": 0,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.946305274963379,
+      "exact_effect": -0.042647361755371094
+    },
+    {
+      "flores_index": 0,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.957636833190918,
+      "exact_effect": -0.053978919982910156
+    },
+    {
+      "flores_index": 0,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.925254821777344,
+      "exact_effect": -0.021596908569335938
+    },
+    {
+      "flores_index": 0,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.748308181762695,
+      "exact_effect": 0.1553497314453125
+    },
+    {
+      "flores_index": 0,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.925865173339844,
+      "exact_effect": -0.022207260131835938
+    },
+    {
+      "flores_index": 0,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.898176193237305,
+      "exact_effect": 0.005481719970703125
+    },
+    {
+      "flores_index": 0,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -10.017271041870117,
+      "exact_effect": -0.11361312866210938
+    },
+    {
+      "flores_index": 0,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.949968338012695,
+      "exact_effect": -0.0463104248046875
+    },
+    {
+      "flores_index": 0,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.901644706726074,
+      "exact_effect": 0.0020132064819335938
+    },
+    {
+      "flores_index": 0,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.939430236816406,
+      "exact_effect": -0.03577232360839844
+    },
+    {
+      "flores_index": 0,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.911221504211426,
+      "exact_effect": -0.007563591003417969
+    },
+    {
+      "flores_index": 0,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.852550506591797,
+      "exact_effect": 0.05110740661621094
+    },
+    {
+      "flores_index": 0,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.891325950622559,
+      "exact_effect": 0.012331962585449219
+    },
+    {
+      "flores_index": 0,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.895990371704102,
+      "exact_effect": 0.00766754150390625
+    },
+    {
+      "flores_index": 0,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -2.216813087463379,
+      "exact_effect": 7.686844825744629
+    },
+    {
+      "flores_index": 0,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -10.0054292678833,
+      "exact_effect": -0.10177135467529297
+    },
+    {
+      "flores_index": 0,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.888517379760742,
+      "exact_effect": 0.015140533447265625
+    },
+    {
+      "flores_index": 0,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.930340766906738,
+      "exact_effect": -0.02668285369873047
+    },
+    {
+      "flores_index": 0,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.919656753540039,
+      "exact_effect": -0.01599884033203125
+    },
+    {
+      "flores_index": 0,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.911935806274414,
+      "exact_effect": -0.00827789306640625
+    },
+    {
+      "flores_index": 0,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -9.903657913208008,
+      "patched_metric": -9.902528762817383,
+      "exact_effect": 0.001129150390625
+    },
+    {
+      "flores_index": 1,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.327903747558594,
+      "exact_effect": -0.0013580322265625
+    },
+    {
+      "flores_index": 1,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.315929412841797,
+      "exact_effect": 0.010616302490234375
+    },
+    {
+      "flores_index": 1,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.272931098937988,
+      "exact_effect": 0.05361461639404297
+    },
+    {
+      "flores_index": 1,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.434003829956055,
+      "exact_effect": -0.10745811462402344
+    },
+    {
+      "flores_index": 1,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -9.876922607421875,
+      "exact_effect": -2.5503768920898438
+    },
+    {
+      "flores_index": 1,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.313144683837891,
+      "exact_effect": 0.013401031494140625
+    },
+    {
+      "flores_index": 1,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.345156669616699,
+      "exact_effect": -0.01861095428466797
+    },
+    {
+      "flores_index": 1,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.269186973571777,
+      "exact_effect": 0.057358741760253906
+    },
+    {
+      "flores_index": 1,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.398763656616211,
+      "exact_effect": -0.07221794128417969
+    },
+    {
+      "flores_index": 1,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.346985816955566,
+      "exact_effect": -0.020440101623535156
+    },
+    {
+      "flores_index": 1,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.212291717529297,
+      "exact_effect": 0.11425399780273438
+    },
+    {
+      "flores_index": 1,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.702390670776367,
+      "exact_effect": -0.37584495544433594
+    },
+    {
+      "flores_index": 1,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.377232551574707,
+      "exact_effect": -0.05068683624267578
+    },
+    {
+      "flores_index": 1,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.404457092285156,
+      "exact_effect": -0.077911376953125
+    },
+    {
+      "flores_index": 1,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.594936370849609,
+      "exact_effect": -0.2683906555175781
+    },
+    {
+      "flores_index": 1,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.447142601013184,
+      "exact_effect": -0.12059688568115234
+    },
+    {
+      "flores_index": 1,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.431580543518066,
+      "exact_effect": -0.10503482818603516
+    },
+    {
+      "flores_index": 1,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.335755348205566,
+      "exact_effect": -0.009209632873535156
+    },
+    {
+      "flores_index": 1,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.30912971496582,
+      "exact_effect": 0.017416000366210938
+    },
+    {
+      "flores_index": 1,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.339323043823242,
+      "exact_effect": -0.012777328491210938
+    },
+    {
+      "flores_index": 1,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.29936408996582,
+      "exact_effect": 0.027181625366210938
+    },
+    {
+      "flores_index": 1,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.312277793884277,
+      "exact_effect": 0.014267921447753906
+    },
+    {
+      "flores_index": 1,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.515666961669922,
+      "exact_effect": -0.18912124633789062
+    },
+    {
+      "flores_index": 1,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -1.3042020797729492,
+      "exact_effect": 6.022343635559082
+    },
+    {
+      "flores_index": 1,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.127218246459961,
+      "exact_effect": 0.1993274688720703
+    },
+    {
+      "flores_index": 1,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.314304351806641,
+      "exact_effect": 0.012241363525390625
+    },
+    {
+      "flores_index": 1,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.226951599121094,
+      "exact_effect": 0.0995941162109375
+    },
+    {
+      "flores_index": 1,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.3477935791015625,
+      "exact_effect": -0.02124786376953125
+    },
+    {
+      "flores_index": 1,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.34156608581543,
+      "exact_effect": -0.015020370483398438
+    },
+    {
+      "flores_index": 1,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -7.326545715332031,
+      "patched_metric": -7.26218318939209,
+      "exact_effect": 0.0643625259399414
+    },
+    {
+      "flores_index": 2,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -7.557662010192871,
+      "exact_effect": -0.839320182800293
+    },
+    {
+      "flores_index": 2,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.653655052185059,
+      "exact_effect": 0.06468677520751953
+    },
+    {
+      "flores_index": 2,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.67169189453125,
+      "exact_effect": 0.046649932861328125
+    },
+    {
+      "flores_index": 2,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.616192817687988,
+      "exact_effect": 0.10214900970458984
+    },
+    {
+      "flores_index": 2,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.867621421813965,
+      "exact_effect": -0.14927959442138672
+    },
+    {
+      "flores_index": 2,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.584460258483887,
+      "exact_effect": 0.1338815689086914
+    },
+    {
+      "flores_index": 2,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.753643989562988,
+      "exact_effect": -0.035302162170410156
+    },
+    {
+      "flores_index": 2,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.448343276977539,
+      "exact_effect": 0.26999855041503906
+    },
+    {
+      "flores_index": 2,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.741484642028809,
+      "exact_effect": -0.02314281463623047
+    },
+    {
+      "flores_index": 2,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.56458854675293,
+      "exact_effect": 0.15375328063964844
+    },
+    {
+      "flores_index": 2,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.596365928649902,
+      "exact_effect": 0.12197589874267578
+    },
+    {
+      "flores_index": 2,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.713994026184082,
+      "exact_effect": 0.004347801208496094
+    },
+    {
+      "flores_index": 2,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.793879508972168,
+      "exact_effect": -0.07553768157958984
+    },
+    {
+      "flores_index": 2,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.600587844848633,
+      "exact_effect": 0.11775398254394531
+    },
+    {
+      "flores_index": 2,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.700359344482422,
+      "exact_effect": 0.01798248291015625
+    },
+    {
+      "flores_index": 2,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.60092830657959,
+      "exact_effect": 0.11741352081298828
+    },
+    {
+      "flores_index": 2,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.659754753112793,
+      "exact_effect": 0.058587074279785156
+    },
+    {
+      "flores_index": 2,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.690525054931641,
+      "exact_effect": 0.0278167724609375
+    },
+    {
+      "flores_index": 2,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.707101821899414,
+      "exact_effect": 0.011240005493164062
+    },
+    {
+      "flores_index": 2,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.684261322021484,
+      "exact_effect": 0.03408050537109375
+    },
+    {
+      "flores_index": 2,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.700550079345703,
+      "exact_effect": 0.017791748046875
+    },
+    {
+      "flores_index": 2,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.641139984130859,
+      "exact_effect": 0.07720184326171875
+    },
+    {
+      "flores_index": 2,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.627708435058594,
+      "exact_effect": 0.09063339233398438
+    },
+    {
+      "flores_index": 2,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -4.753109931945801,
+      "exact_effect": 1.9652318954467773
+    },
+    {
+      "flores_index": 2,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.60026741027832,
+      "exact_effect": 0.11807441711425781
+    },
+    {
+      "flores_index": 2,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.771839141845703,
+      "exact_effect": -0.053497314453125
+    },
+    {
+      "flores_index": 2,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.7179765701293945,
+      "exact_effect": 0.00036525726318359375
+    },
+    {
+      "flores_index": 2,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.709639549255371,
+      "exact_effect": 0.008702278137207031
+    },
+    {
+      "flores_index": 2,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.704011917114258,
+      "exact_effect": 0.014329910278320312
+    },
+    {
+      "flores_index": 2,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -6.718341827392578,
+      "patched_metric": -6.76816463470459,
+      "exact_effect": -0.04982280731201172
+    },
+    {
+      "flores_index": 3,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.08509635925293,
+      "exact_effect": 0.031205177307128906
+    },
+    {
+      "flores_index": 3,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.097726821899414,
+      "exact_effect": 0.01857471466064453
+    },
+    {
+      "flores_index": 3,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.137523651123047,
+      "exact_effect": -0.02122211456298828
+    },
+    {
+      "flores_index": 3,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.450417518615723,
+      "exact_effect": -0.33411598205566406
+    },
+    {
+      "flores_index": 3,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.521846771240234,
+      "exact_effect": -0.4055452346801758
+    },
+    {
+      "flores_index": 3,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.1197662353515625,
+      "exact_effect": -0.0034646987915039062
+    },
+    {
+      "flores_index": 3,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.129890441894531,
+      "exact_effect": -0.013588905334472656
+    },
+    {
+      "flores_index": 3,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.0728254318237305,
+      "exact_effect": 0.043476104736328125
+    },
+    {
+      "flores_index": 3,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.161940574645996,
+      "exact_effect": -0.0456390380859375
+    },
+    {
+      "flores_index": 3,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.134551048278809,
+      "exact_effect": -0.01824951171875
+    },
+    {
+      "flores_index": 3,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.01511287689209,
+      "exact_effect": 0.10118865966796875
+    },
+    {
+      "flores_index": 3,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.153587341308594,
+      "exact_effect": -0.037285804748535156
+    },
+    {
+      "flores_index": 3,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.0435075759887695,
+      "exact_effect": 0.07279396057128906
+    },
+    {
+      "flores_index": 3,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.096218109130859,
+      "exact_effect": 0.02008342742919922
+    },
+    {
+      "flores_index": 3,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.099898338317871,
+      "exact_effect": 0.0164031982421875
+    },
+    {
+      "flores_index": 3,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.101652145385742,
+      "exact_effect": 0.014649391174316406
+    },
+    {
+      "flores_index": 3,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.169833183288574,
+      "exact_effect": -0.053531646728515625
+    },
+    {
+      "flores_index": 3,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.0669050216674805,
+      "exact_effect": 0.049396514892578125
+    },
+    {
+      "flores_index": 3,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.115561485290527,
+      "exact_effect": 0.00074005126953125
+    },
+    {
+      "flores_index": 3,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.097328186035156,
+      "exact_effect": 0.018973350524902344
+    },
+    {
+      "flores_index": 3,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.053187370300293,
+      "exact_effect": 0.06311416625976562
+    },
+    {
+      "flores_index": 3,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.151270866394043,
+      "exact_effect": -0.034969329833984375
+    },
+    {
+      "flores_index": 3,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.081337928771973,
+      "exact_effect": 0.03496360778808594
+    },
+    {
+      "flores_index": 3,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -4.00288200378418,
+      "exact_effect": 3.113419532775879
+    },
+    {
+      "flores_index": 3,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.092874526977539,
+      "exact_effect": 0.02342700958251953
+    },
+    {
+      "flores_index": 3,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.101449012756348,
+      "exact_effect": 0.014852523803710938
+    },
+    {
+      "flores_index": 3,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.1419878005981445,
+      "exact_effect": -0.025686264038085938
+    },
+    {
+      "flores_index": 3,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.100682258605957,
+      "exact_effect": 0.015619277954101562
+    },
+    {
+      "flores_index": 3,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.134428024291992,
+      "exact_effect": -0.018126487731933594
+    },
+    {
+      "flores_index": 3,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -7.116301536560059,
+      "patched_metric": -7.081938743591309,
+      "exact_effect": 0.03436279296875
+    },
+    {
+      "flores_index": 4,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.546417236328125,
+      "exact_effect": -0.00753021240234375
+    },
+    {
+      "flores_index": 4,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.526251792907715,
+      "exact_effect": 0.012635231018066406
+    },
+    {
+      "flores_index": 4,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.513917922973633,
+      "exact_effect": 0.024969100952148438
+    },
+    {
+      "flores_index": 4,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.545881271362305,
+      "exact_effect": -0.0069942474365234375
+    },
+    {
+      "flores_index": 4,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.540800094604492,
+      "exact_effect": -0.0019130706787109375
+    },
+    {
+      "flores_index": 4,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.586453437805176,
+      "exact_effect": -0.04756641387939453
+    },
+    {
+      "flores_index": 4,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.5134859085083,
+      "exact_effect": 0.02540111541748047
+    },
+    {
+      "flores_index": 4,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.488297462463379,
+      "exact_effect": 0.050589561462402344
+    },
+    {
+      "flores_index": 4,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.545404434204102,
+      "exact_effect": -0.0065174102783203125
+    },
+    {
+      "flores_index": 4,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.46612548828125,
+      "exact_effect": 0.07276153564453125
+    },
+    {
+      "flores_index": 4,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.548589706420898,
+      "exact_effect": -0.009702682495117188
+    },
+    {
+      "flores_index": 4,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.556076049804688,
+      "exact_effect": -0.01718902587890625
+    },
+    {
+      "flores_index": 4,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.490198135375977,
+      "exact_effect": 0.04868888854980469
+    },
+    {
+      "flores_index": 4,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.553988456726074,
+      "exact_effect": -0.015101432800292969
+    },
+    {
+      "flores_index": 4,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.538114547729492,
+      "exact_effect": 0.0007724761962890625
+    },
+    {
+      "flores_index": 4,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.579345703125,
+      "exact_effect": -0.04045867919921875
+    },
+    {
+      "flores_index": 4,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.482418060302734,
+      "exact_effect": 0.056468963623046875
+    },
+    {
+      "flores_index": 4,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.539527893066406,
+      "exact_effect": -0.000640869140625
+    },
+    {
+      "flores_index": 4,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.536709785461426,
+      "exact_effect": 0.0021772384643554688
+    },
+    {
+      "flores_index": 4,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.524736404418945,
+      "exact_effect": 0.014150619506835938
+    },
+    {
+      "flores_index": 4,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.5020751953125,
+      "exact_effect": 0.03681182861328125
+    },
+    {
+      "flores_index": 4,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.540481567382812,
+      "exact_effect": -0.00159454345703125
+    },
+    {
+      "flores_index": 4,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.53493595123291,
+      "exact_effect": 0.003951072692871094
+    },
+    {
+      "flores_index": 4,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -4.585762977600098,
+      "exact_effect": 3.9531240463256836
+    },
+    {
+      "flores_index": 4,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.535112380981445,
+      "exact_effect": 0.0037746429443359375
+    },
+    {
+      "flores_index": 4,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.640976905822754,
+      "exact_effect": -0.10208988189697266
+    },
+    {
+      "flores_index": 4,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.535064697265625,
+      "exact_effect": 0.00382232666015625
+    },
+    {
+      "flores_index": 4,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.535898208618164,
+      "exact_effect": 0.0029888153076171875
+    },
+    {
+      "flores_index": 4,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.532800674438477,
+      "exact_effect": 0.0060863494873046875
+    },
+    {
+      "flores_index": 4,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -8.538887023925781,
+      "patched_metric": -8.597858428955078,
+      "exact_effect": -0.058971405029296875
+    },
+    {
+      "flores_index": 5,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.68574333190918,
+      "exact_effect": 0.052901268005371094
+    },
+    {
+      "flores_index": 5,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.686406135559082,
+      "exact_effect": 0.05223846435546875
+    },
+    {
+      "flores_index": 5,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.419322967529297,
+      "exact_effect": 0.3193216323852539
+    },
+    {
+      "flores_index": 5,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.568005561828613,
+      "exact_effect": 0.1706390380859375
+    },
+    {
+      "flores_index": 5,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.627407073974609,
+      "exact_effect": 0.1112375259399414
+    },
+    {
+      "flores_index": 5,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.739947319030762,
+      "exact_effect": -0.0013027191162109375
+    },
+    {
+      "flores_index": 5,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.694753646850586,
+      "exact_effect": 0.043890953063964844
+    },
+    {
+      "flores_index": 5,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.776454925537109,
+      "exact_effect": -0.037810325622558594
+    },
+    {
+      "flores_index": 5,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.770565032958984,
+      "exact_effect": -0.031920433044433594
+    },
+    {
+      "flores_index": 5,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.643619537353516,
+      "exact_effect": 0.09502506256103516
+    },
+    {
+      "flores_index": 5,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.628141403198242,
+      "exact_effect": 0.1105031967163086
+    },
+    {
+      "flores_index": 5,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.773724555969238,
+      "exact_effect": -0.0350799560546875
+    },
+    {
+      "flores_index": 5,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.577945709228516,
+      "exact_effect": 0.16069889068603516
+    },
+    {
+      "flores_index": 5,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.757009506225586,
+      "exact_effect": -0.018364906311035156
+    },
+    {
+      "flores_index": 5,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.741382598876953,
+      "exact_effect": -0.0027379989624023438
+    },
+    {
+      "flores_index": 5,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.769747734069824,
+      "exact_effect": -0.031103134155273438
+    },
+    {
+      "flores_index": 5,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.50391960144043,
+      "exact_effect": 0.2347249984741211
+    },
+    {
+      "flores_index": 5,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.6949357986450195,
+      "exact_effect": 0.04370880126953125
+    },
+    {
+      "flores_index": 5,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.760126113891602,
+      "exact_effect": -0.02148151397705078
+    },
+    {
+      "flores_index": 5,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.725958824157715,
+      "exact_effect": 0.012685775756835938
+    },
+    {
+      "flores_index": 5,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.669127464294434,
+      "exact_effect": 0.06951713562011719
+    },
+    {
+      "flores_index": 5,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.738923072814941,
+      "exact_effect": -0.000278472900390625
+    },
+    {
+      "flores_index": 5,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.722883224487305,
+      "exact_effect": 0.015761375427246094
+    },
+    {
+      "flores_index": 5,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -5.834399223327637,
+      "exact_effect": 1.904245376586914
+    },
+    {
+      "flores_index": 5,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.630165100097656,
+      "exact_effect": 0.10847949981689453
+    },
+    {
+      "flores_index": 5,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.768442153930664,
+      "exact_effect": -0.02979755401611328
+    },
+    {
+      "flores_index": 5,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.734653472900391,
+      "exact_effect": 0.003991127014160156
+    },
+    {
+      "flores_index": 5,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.736407279968262,
+      "exact_effect": 0.0022373199462890625
+    },
+    {
+      "flores_index": 5,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.743012428283691,
+      "exact_effect": -0.004367828369140625
+    },
+    {
+      "flores_index": 5,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -7.738644599914551,
+      "patched_metric": -7.799212455749512,
+      "exact_effect": -0.06056785583496094
+    },
+    {
+      "flores_index": 6,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.6122398376464844,
+      "exact_effect": 0.4645700454711914
+    },
+    {
+      "flores_index": 6,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.06380558013916,
+      "exact_effect": 0.013004302978515625
+    },
+    {
+      "flores_index": 6,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.139438629150391,
+      "exact_effect": -0.06262874603271484
+    },
+    {
+      "flores_index": 6,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.82143497467041,
+      "exact_effect": 0.2553749084472656
+    },
+    {
+      "flores_index": 6,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.149377822875977,
+      "exact_effect": -0.07256793975830078
+    },
+    {
+      "flores_index": 6,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.151721000671387,
+      "exact_effect": -0.07491111755371094
+    },
+    {
+      "flores_index": 6,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.099106788635254,
+      "exact_effect": -0.022296905517578125
+    },
+    {
+      "flores_index": 6,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.828704833984375,
+      "exact_effect": 0.24810504913330078
+    },
+    {
+      "flores_index": 6,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.082082748413086,
+      "exact_effect": -0.005272865295410156
+    },
+    {
+      "flores_index": 6,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.103659629821777,
+      "exact_effect": -0.026849746704101562
+    },
+    {
+      "flores_index": 6,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.107375144958496,
+      "exact_effect": -0.030565261840820312
+    },
+    {
+      "flores_index": 6,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.075395584106445,
+      "exact_effect": 0.0014142990112304688
+    },
+    {
+      "flores_index": 6,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.815401077270508,
+      "exact_effect": 0.26140880584716797
+    },
+    {
+      "flores_index": 6,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.971339225769043,
+      "exact_effect": 0.10547065734863281
+    },
+    {
+      "flores_index": 6,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.07999324798584,
+      "exact_effect": -0.0031833648681640625
+    },
+    {
+      "flores_index": 6,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.967066764831543,
+      "exact_effect": 0.10974311828613281
+    },
+    {
+      "flores_index": 6,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.0719757080078125,
+      "exact_effect": 0.004834175109863281
+    },
+    {
+      "flores_index": 6,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.084047317504883,
+      "exact_effect": -0.007237434387207031
+    },
+    {
+      "flores_index": 6,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.0706024169921875,
+      "exact_effect": 0.006207466125488281
+    },
+    {
+      "flores_index": 6,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.055051803588867,
+      "exact_effect": 0.021758079528808594
+    },
+    {
+      "flores_index": 6,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.0754241943359375,
+      "exact_effect": 0.0013856887817382812
+    },
+    {
+      "flores_index": 6,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -3.974188804626465,
+      "exact_effect": 0.10262107849121094
+    },
+    {
+      "flores_index": 6,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.096892356872559,
+      "exact_effect": -0.020082473754882812
+    },
+    {
+      "flores_index": 6,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -0.45650386810302734,
+      "exact_effect": 3.6203060150146484
+    },
+    {
+      "flores_index": 6,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.0113372802734375,
+      "exact_effect": 0.06547260284423828
+    },
+    {
+      "flores_index": 6,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.119509696960449,
+      "exact_effect": -0.04269981384277344
+    },
+    {
+      "flores_index": 6,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.07533073425293,
+      "exact_effect": 0.0014791488647460938
+    },
+    {
+      "flores_index": 6,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.082210540771484,
+      "exact_effect": -0.005400657653808594
+    },
+    {
+      "flores_index": 6,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.069858551025391,
+      "exact_effect": 0.006951332092285156
+    },
+    {
+      "flores_index": 6,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -4.076809883117676,
+      "patched_metric": -4.065726280212402,
+      "exact_effect": 0.011083602905273438
+    },
+    {
+      "flores_index": 7,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -6.594322204589844,
+      "exact_effect": 0.9365596771240234
+    },
+    {
+      "flores_index": 7,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.455256462097168,
+      "exact_effect": 0.07562541961669922
+    },
+    {
+      "flores_index": 7,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.768321990966797,
+      "exact_effect": -0.2374401092529297
+    },
+    {
+      "flores_index": 7,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.315816879272461,
+      "exact_effect": 0.21506500244140625
+    },
+    {
+      "flores_index": 7,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.551258087158203,
+      "exact_effect": -0.020376205444335938
+    },
+    {
+      "flores_index": 7,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.465692520141602,
+      "exact_effect": 0.06518936157226562
+    },
+    {
+      "flores_index": 7,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.502506256103516,
+      "exact_effect": 0.028375625610351562
+    },
+    {
+      "flores_index": 7,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.461943626403809,
+      "exact_effect": 0.0689382553100586
+    },
+    {
+      "flores_index": 7,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.646527290344238,
+      "exact_effect": -0.1156454086303711
+    },
+    {
+      "flores_index": 7,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.378478050231934,
+      "exact_effect": 0.1524038314819336
+    },
+    {
+      "flores_index": 7,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.306245803833008,
+      "exact_effect": 0.22463607788085938
+    },
+    {
+      "flores_index": 7,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.513204574584961,
+      "exact_effect": 0.01767730712890625
+    },
+    {
+      "flores_index": 7,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.482501983642578,
+      "exact_effect": 0.04837989807128906
+    },
+    {
+      "flores_index": 7,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.576949119567871,
+      "exact_effect": -0.046067237854003906
+    },
+    {
+      "flores_index": 7,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.545032501220703,
+      "exact_effect": -0.014150619506835938
+    },
+    {
+      "flores_index": 7,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.577080726623535,
+      "exact_effect": -0.04619884490966797
+    },
+    {
+      "flores_index": 7,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.304299354553223,
+      "exact_effect": 0.22658252716064453
+    },
+    {
+      "flores_index": 7,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.549308776855469,
+      "exact_effect": -0.018426895141601562
+    },
+    {
+      "flores_index": 7,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.615475654602051,
+      "exact_effect": -0.0845937728881836
+    },
+    {
+      "flores_index": 7,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.531210899353027,
+      "exact_effect": -0.00032901763916015625
+    },
+    {
+      "flores_index": 7,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.244411468505859,
+      "exact_effect": 0.2864704132080078
+    },
+    {
+      "flores_index": 7,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.483965873718262,
+      "exact_effect": 0.04691600799560547
+    },
+    {
+      "flores_index": 7,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.48738956451416,
+      "exact_effect": 0.04349231719970703
+    },
+    {
+      "flores_index": 7,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -6.7945661544799805,
+      "exact_effect": 0.7363157272338867
+    },
+    {
+      "flores_index": 7,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.5668182373046875,
+      "exact_effect": -0.03593635559082031
+    },
+    {
+      "flores_index": 7,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.597552299499512,
+      "exact_effect": -0.06667041778564453
+    },
+    {
+      "flores_index": 7,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.5200653076171875,
+      "exact_effect": 0.010816574096679688
+    },
+    {
+      "flores_index": 7,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.5269927978515625,
+      "exact_effect": 0.0038890838623046875
+    },
+    {
+      "flores_index": 7,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.561282157897949,
+      "exact_effect": -0.03040027618408203
+    },
+    {
+      "flores_index": 7,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -7.530881881713867,
+      "patched_metric": -7.685432434082031,
+      "exact_effect": -0.15455055236816406
+    },
+    {
+      "flores_index": 8,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -4.739047050476074,
+      "exact_effect": 1.0451745986938477
+    },
+    {
+      "flores_index": 8,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.714756011962891,
+      "exact_effect": 0.06946563720703125
+    },
+    {
+      "flores_index": 8,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.793689727783203,
+      "exact_effect": -0.00946807861328125
+    },
+    {
+      "flores_index": 8,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.923277854919434,
+      "exact_effect": -0.13905620574951172
+    },
+    {
+      "flores_index": 8,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.535858154296875,
+      "exact_effect": 0.24836349487304688
+    },
+    {
+      "flores_index": 8,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.789392471313477,
+      "exact_effect": -0.0051708221435546875
+    },
+    {
+      "flores_index": 8,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.7999162673950195,
+      "exact_effect": -0.015694618225097656
+    },
+    {
+      "flores_index": 8,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.630458831787109,
+      "exact_effect": 0.1537628173828125
+    },
+    {
+      "flores_index": 8,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.7625732421875,
+      "exact_effect": 0.021648406982421875
+    },
+    {
+      "flores_index": 8,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.72327995300293,
+      "exact_effect": 0.06094169616699219
+    },
+    {
+      "flores_index": 8,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.725817680358887,
+      "exact_effect": 0.058403968811035156
+    },
+    {
+      "flores_index": 8,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.787661552429199,
+      "exact_effect": -0.0034399032592773438
+    },
+    {
+      "flores_index": 8,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.753143310546875,
+      "exact_effect": 0.031078338623046875
+    },
+    {
+      "flores_index": 8,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.724457740783691,
+      "exact_effect": 0.05976390838623047
+    },
+    {
+      "flores_index": 8,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.7778120040893555,
+      "exact_effect": 0.006409645080566406
+    },
+    {
+      "flores_index": 8,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.741158485412598,
+      "exact_effect": 0.04306316375732422
+    },
+    {
+      "flores_index": 8,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.621129035949707,
+      "exact_effect": 0.16309261322021484
+    },
+    {
+      "flores_index": 8,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.781591415405273,
+      "exact_effect": 0.0026302337646484375
+    },
+    {
+      "flores_index": 8,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.796308517456055,
+      "exact_effect": -0.012086868286132812
+    },
+    {
+      "flores_index": 8,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.801008224487305,
+      "exact_effect": -0.016786575317382812
+    },
+    {
+      "flores_index": 8,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.633091926574707,
+      "exact_effect": 0.15112972259521484
+    },
+    {
+      "flores_index": 8,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.731684684753418,
+      "exact_effect": 0.052536964416503906
+    },
+    {
+      "flores_index": 8,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.732690811157227,
+      "exact_effect": 0.05153083801269531
+    },
+    {
+      "flores_index": 8,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": 0.7392711639404297,
+      "exact_effect": 6.523492813110352
+    },
+    {
+      "flores_index": 8,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.770647048950195,
+      "exact_effect": 0.013574600219726562
+    },
+    {
+      "flores_index": 8,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.8250532150268555,
+      "exact_effect": -0.040831565856933594
+    },
+    {
+      "flores_index": 8,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.769513130187988,
+      "exact_effect": 0.014708518981933594
+    },
+    {
+      "flores_index": 8,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.7798919677734375,
+      "exact_effect": 0.004329681396484375
+    },
+    {
+      "flores_index": 8,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.795583724975586,
+      "exact_effect": -0.011362075805664062
+    },
+    {
+      "flores_index": 8,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -5.784221649169922,
+      "patched_metric": -5.8225555419921875,
+      "exact_effect": -0.038333892822265625
+    },
+    {
+      "flores_index": 9,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.6259117126464844,
+      "exact_effect": 0.37470436096191406
+    },
+    {
+      "flores_index": 9,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.882965087890625,
+      "exact_effect": 0.11765098571777344
+    },
+    {
+      "flores_index": 9,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.678600311279297,
+      "exact_effect": 0.32201576232910156
+    },
+    {
+      "flores_index": 9,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9219369888305664,
+      "exact_effect": 0.07867908477783203
+    },
+    {
+      "flores_index": 9,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.0180816650390625,
+      "exact_effect": -0.017465591430664062
+    },
+    {
+      "flores_index": 9,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.311908721923828,
+      "exact_effect": -0.3112926483154297
+    },
+    {
+      "flores_index": 9,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.018913269042969,
+      "exact_effect": -0.018297195434570312
+    },
+    {
+      "flores_index": 9,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9610862731933594,
+      "exact_effect": 0.03952980041503906
+    },
+    {
+      "flores_index": 9,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.025058746337891,
+      "exact_effect": -0.024442672729492188
+    },
+    {
+      "flores_index": 9,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.950892448425293,
+      "exact_effect": 0.04972362518310547
+    },
+    {
+      "flores_index": 9,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.04656982421875,
+      "exact_effect": -0.04595375061035156
+    },
+    {
+      "flores_index": 9,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.000659942626953,
+      "exact_effect": -4.38690185546875e-05
+    },
+    {
+      "flores_index": 9,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9457826614379883,
+      "exact_effect": 0.054833412170410156
+    },
+    {
+      "flores_index": 9,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9810075759887695,
+      "exact_effect": 0.019608497619628906
+    },
+    {
+      "flores_index": 9,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.996326446533203,
+      "exact_effect": 0.0042896270751953125
+    },
+    {
+      "flores_index": 9,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9613752365112305,
+      "exact_effect": 0.03924083709716797
+    },
+    {
+      "flores_index": 9,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.01963996887207,
+      "exact_effect": -0.019023895263671875
+    },
+    {
+      "flores_index": 9,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9879093170166016,
+      "exact_effect": 0.012706756591796875
+    },
+    {
+      "flores_index": 9,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.013607025146484,
+      "exact_effect": -0.012990951538085938
+    },
+    {
+      "flores_index": 9,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.993701934814453,
+      "exact_effect": 0.0069141387939453125
+    },
+    {
+      "flores_index": 9,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.8710269927978516,
+      "exact_effect": 0.12958908081054688
+    },
+    {
+      "flores_index": 9,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.956899642944336,
+      "exact_effect": 0.0437164306640625
+    },
+    {
+      "flores_index": 9,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.908623695373535,
+      "exact_effect": 0.09199237823486328
+    },
+    {
+      "flores_index": 9,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": 1.3106708526611328,
+      "exact_effect": 5.311286926269531
+    },
+    {
+      "flores_index": 9,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.8937463760375977,
+      "exact_effect": 0.10686969757080078
+    },
+    {
+      "flores_index": 9,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.93389892578125,
+      "exact_effect": 0.06671714782714844
+    },
+    {
+      "flores_index": 9,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.9949092864990234,
+      "exact_effect": 0.005706787109375
+    },
+    {
+      "flores_index": 9,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.013265609741211,
+      "exact_effect": -0.0126495361328125
+    },
+    {
+      "flores_index": 9,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -4.008185386657715,
+      "exact_effect": -0.007569313049316406
+    },
+    {
+      "flores_index": 9,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -4.000616073608398,
+      "patched_metric": -3.995011329650879,
+      "exact_effect": 0.005604743957519531
+    },
+    {
+      "flores_index": 10,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.2765254974365234,
+      "exact_effect": 0.282196044921875
+    },
+    {
+      "flores_index": 10,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.420125961303711,
+      "exact_effect": 0.1385955810546875
+    },
+    {
+      "flores_index": 10,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.454400062561035,
+      "exact_effect": 0.10432147979736328
+    },
+    {
+      "flores_index": 10,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.491762161254883,
+      "exact_effect": 0.06695938110351562
+    },
+    {
+      "flores_index": 10,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.505721092224121,
+      "exact_effect": 0.053000450134277344
+    },
+    {
+      "flores_index": 10,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.309774398803711,
+      "exact_effect": 0.2489471435546875
+    },
+    {
+      "flores_index": 10,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.4972057342529297,
+      "exact_effect": 0.06151580810546875
+    },
+    {
+      "flores_index": 10,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.4676761627197266,
+      "exact_effect": 0.09104537963867188
+    },
+    {
+      "flores_index": 10,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.612823486328125,
+      "exact_effect": -0.05410194396972656
+    },
+    {
+      "flores_index": 10,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.532512664794922,
+      "exact_effect": 0.026208877563476562
+    },
+    {
+      "flores_index": 10,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.427584648132324,
+      "exact_effect": 0.13113689422607422
+    },
+    {
+      "flores_index": 10,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5632524490356445,
+      "exact_effect": -0.004530906677246094
+    },
+    {
+      "flores_index": 10,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.518301010131836,
+      "exact_effect": 0.0404205322265625
+    },
+    {
+      "flores_index": 10,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.56400203704834,
+      "exact_effect": -0.005280494689941406
+    },
+    {
+      "flores_index": 10,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.506863594055176,
+      "exact_effect": 0.051857948303222656
+    },
+    {
+      "flores_index": 10,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5745763778686523,
+      "exact_effect": -0.015854835510253906
+    },
+    {
+      "flores_index": 10,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5690603256225586,
+      "exact_effect": -0.010338783264160156
+    },
+    {
+      "flores_index": 10,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.528508186340332,
+      "exact_effect": 0.030213356018066406
+    },
+    {
+      "flores_index": 10,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5660877227783203,
+      "exact_effect": -0.007366180419921875
+    },
+    {
+      "flores_index": 10,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.590132713317871,
+      "exact_effect": -0.031411170959472656
+    },
+    {
+      "flores_index": 10,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.4932985305786133,
+      "exact_effect": 0.06542301177978516
+    },
+    {
+      "flores_index": 10,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5659399032592773,
+      "exact_effect": -0.007218360900878906
+    },
+    {
+      "flores_index": 10,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.477799415588379,
+      "exact_effect": 0.08092212677001953
+    },
+    {
+      "flores_index": 10,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -1.59161376953125,
+      "exact_effect": 1.9671077728271484
+    },
+    {
+      "flores_index": 10,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.3549509048461914,
+      "exact_effect": 0.20377063751220703
+    },
+    {
+      "flores_index": 10,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.546677589416504,
+      "exact_effect": 0.012043952941894531
+    },
+    {
+      "flores_index": 10,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5780324935913086,
+      "exact_effect": -0.019310951232910156
+    },
+    {
+      "flores_index": 10,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.558185577392578,
+      "exact_effect": 0.0005359649658203125
+    },
+    {
+      "flores_index": 10,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.5867700576782227,
+      "exact_effect": -0.02804851531982422
+    },
+    {
+      "flores_index": 10,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -3.5587215423583984,
+      "patched_metric": -3.554231643676758,
+      "exact_effect": 0.004489898681640625
+    },
+    {
+      "flores_index": 11,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.652728080749512,
+      "exact_effect": 0.3138418197631836
+    },
+    {
+      "flores_index": 11,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.883206367492676,
+      "exact_effect": 0.08336353302001953
+    },
+    {
+      "flores_index": 11,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.552792549133301,
+      "exact_effect": 0.41377735137939453
+    },
+    {
+      "flores_index": 11,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.782448768615723,
+      "exact_effect": 0.18412113189697266
+    },
+    {
+      "flores_index": 11,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.3493242263793945,
+      "exact_effect": 0.6172456741333008
+    },
+    {
+      "flores_index": 11,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -5.046962738037109,
+      "exact_effect": -0.08039283752441406
+    },
+    {
+      "flores_index": 11,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.739322662353516,
+      "exact_effect": 0.2272472381591797
+    },
+    {
+      "flores_index": 11,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.46807861328125,
+      "exact_effect": 0.4984912872314453
+    },
+    {
+      "flores_index": 11,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -5.108412742614746,
+      "exact_effect": -0.14184284210205078
+    },
+    {
+      "flores_index": 11,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.922706604003906,
+      "exact_effect": 0.04386329650878906
+    },
+    {
+      "flores_index": 11,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.72605037689209,
+      "exact_effect": 0.24051952362060547
+    },
+    {
+      "flores_index": 11,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -5.007560729980469,
+      "exact_effect": -0.04099082946777344
+    },
+    {
+      "flores_index": 11,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.745841979980469,
+      "exact_effect": 0.22072792053222656
+    },
+    {
+      "flores_index": 11,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.803854942321777,
+      "exact_effect": 0.16271495819091797
+    },
+    {
+      "flores_index": 11,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.989566802978516,
+      "exact_effect": -0.022996902465820312
+    },
+    {
+      "flores_index": 11,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.819255828857422,
+      "exact_effect": 0.14731407165527344
+    },
+    {
+      "flores_index": 11,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.871970176696777,
+      "exact_effect": 0.09459972381591797
+    },
+    {
+      "flores_index": 11,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.924590110778809,
+      "exact_effect": 0.04197978973388672
+    },
+    {
+      "flores_index": 11,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.990346908569336,
+      "exact_effect": -0.023777008056640625
+    },
+    {
+      "flores_index": 11,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.951851844787598,
+      "exact_effect": 0.014718055725097656
+    },
+    {
+      "flores_index": 11,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.874448776245117,
+      "exact_effect": 0.09212112426757812
+    },
+    {
+      "flores_index": 11,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.888138771057129,
+      "exact_effect": 0.0784311294555664
+    },
+    {
+      "flores_index": 11,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.898697853088379,
+      "exact_effect": 0.0678720474243164
+    },
+    {
+      "flores_index": 11,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.826656341552734,
+      "exact_effect": 0.13991355895996094
+    },
+    {
+      "flores_index": 11,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.577901840209961,
+      "exact_effect": 0.3886680603027344
+    },
+    {
+      "flores_index": 11,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.984410285949707,
+      "exact_effect": -0.01784038543701172
+    },
+    {
+      "flores_index": 11,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.998440742492676,
+      "exact_effect": -0.03187084197998047
+    },
+    {
+      "flores_index": 11,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.977801322937012,
+      "exact_effect": -0.011231422424316406
+    },
+    {
+      "flores_index": 11,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -5.020246505737305,
+      "exact_effect": -0.053676605224609375
+    },
+    {
+      "flores_index": 11,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -4.966569900512695,
+      "patched_metric": -4.995261192321777,
+      "exact_effect": -0.02869129180908203
+    },
+    {
+      "flores_index": 12,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.414226531982422,
+      "exact_effect": 0.6281251907348633
+    },
+    {
+      "flores_index": 12,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.979100227355957,
+      "exact_effect": 0.06325149536132812
+    },
+    {
+      "flores_index": 12,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.394289016723633,
+      "exact_effect": 0.6480627059936523
+    },
+    {
+      "flores_index": 12,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.504367828369141,
+      "exact_effect": 0.5379838943481445
+    },
+    {
+      "flores_index": 12,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.999256134033203,
+      "exact_effect": 0.04309558868408203
+    },
+    {
+      "flores_index": 12,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.0731916427612305,
+      "exact_effect": -0.030839920043945312
+    },
+    {
+      "flores_index": 12,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.691840171813965,
+      "exact_effect": 0.3505115509033203
+    },
+    {
+      "flores_index": 12,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.99674129486084,
+      "exact_effect": 0.04561042785644531
+    },
+    {
+      "flores_index": 12,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.081238746643066,
+      "exact_effect": -0.03888702392578125
+    },
+    {
+      "flores_index": 12,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.765205383300781,
+      "exact_effect": 0.2771463394165039
+    },
+    {
+      "flores_index": 12,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.909460067749023,
+      "exact_effect": 0.13289165496826172
+    },
+    {
+      "flores_index": 12,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.054376602172852,
+      "exact_effect": -0.012024879455566406
+    },
+    {
+      "flores_index": 12,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.041662216186523,
+      "exact_effect": 0.0006895065307617188
+    },
+    {
+      "flores_index": 12,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.015009880065918,
+      "exact_effect": 0.027341842651367188
+    },
+    {
+      "flores_index": 12,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.0508012771606445,
+      "exact_effect": -0.008449554443359375
+    },
+    {
+      "flores_index": 12,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.020843505859375,
+      "exact_effect": 0.021508216857910156
+    },
+    {
+      "flores_index": 12,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.035582542419434,
+      "exact_effect": 0.0067691802978515625
+    },
+    {
+      "flores_index": 12,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.046871185302734,
+      "exact_effect": -0.004519462585449219
+    },
+    {
+      "flores_index": 12,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.046669006347656,
+      "exact_effect": -0.004317283630371094
+    },
+    {
+      "flores_index": 12,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.043475151062012,
+      "exact_effect": -0.0011234283447265625
+    },
+    {
+      "flores_index": 12,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.997867584228516,
+      "exact_effect": 0.04448413848876953
+    },
+    {
+      "flores_index": 12,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.966015815734863,
+      "exact_effect": 0.07633590698242188
+    },
+    {
+      "flores_index": 12,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.853877067565918,
+      "exact_effect": 0.1884746551513672
+    },
+    {
+      "flores_index": 12,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -3.245471954345703,
+      "exact_effect": 1.796879768371582
+    },
+    {
+      "flores_index": 12,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.0271406173706055,
+      "exact_effect": 0.015211105346679688
+    },
+    {
+      "flores_index": 12,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.041106224060059,
+      "exact_effect": 0.0012454986572265625
+    },
+    {
+      "flores_index": 12,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -4.998258590698242,
+      "exact_effect": 0.04409313201904297
+    },
+    {
+      "flores_index": 12,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.033867835998535,
+      "exact_effect": 0.00848388671875
+    },
+    {
+      "flores_index": 12,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.041134834289551,
+      "exact_effect": 0.001216888427734375
+    },
+    {
+      "flores_index": 12,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -5.042351722717285,
+      "patched_metric": -5.008159637451172,
+      "exact_effect": 0.03419208526611328
+    },
+    {
+      "flores_index": 13,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -4.293349266052246,
+      "exact_effect": 1.5952768325805664
+    },
+    {
+      "flores_index": 13,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.834196090698242,
+      "exact_effect": 0.05443000793457031
+    },
+    {
+      "flores_index": 13,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.784908294677734,
+      "exact_effect": 0.10371780395507812
+    },
+    {
+      "flores_index": 13,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.932010650634766,
+      "exact_effect": -0.043384552001953125
+    },
+    {
+      "flores_index": 13,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.760354042053223,
+      "exact_effect": 0.12827205657958984
+    },
+    {
+      "flores_index": 13,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.884245872497559,
+      "exact_effect": 0.004380226135253906
+    },
+    {
+      "flores_index": 13,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.817290306091309,
+      "exact_effect": 0.0713357925415039
+    },
+    {
+      "flores_index": 13,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.758884429931641,
+      "exact_effect": 0.12974166870117188
+    },
+    {
+      "flores_index": 13,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.979154586791992,
+      "exact_effect": -0.09052848815917969
+    },
+    {
+      "flores_index": 13,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.861514091491699,
+      "exact_effect": 0.02711200714111328
+    },
+    {
+      "flores_index": 13,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.8667192459106445,
+      "exact_effect": 0.02190685272216797
+    },
+    {
+      "flores_index": 13,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.884122848510742,
+      "exact_effect": 0.0045032501220703125
+    },
+    {
+      "flores_index": 13,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.455924034118652,
+      "exact_effect": 0.43270206451416016
+    },
+    {
+      "flores_index": 13,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.876486778259277,
+      "exact_effect": 0.012139320373535156
+    },
+    {
+      "flores_index": 13,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.878352165222168,
+      "exact_effect": 0.010273933410644531
+    },
+    {
+      "flores_index": 13,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.877834320068359,
+      "exact_effect": 0.010791778564453125
+    },
+    {
+      "flores_index": 13,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.577149391174316,
+      "exact_effect": 0.3114767074584961
+    },
+    {
+      "flores_index": 13,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.815519332885742,
+      "exact_effect": 0.07310676574707031
+    },
+    {
+      "flores_index": 13,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -6.126221656799316,
+      "exact_effect": -0.2375955581665039
+    },
+    {
+      "flores_index": 13,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.891790390014648,
+      "exact_effect": -0.0031642913818359375
+    },
+    {
+      "flores_index": 13,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.87672233581543,
+      "exact_effect": 0.011903762817382812
+    },
+    {
+      "flores_index": 13,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.066715240478516,
+      "exact_effect": 0.8219108581542969
+    },
+    {
+      "flores_index": 13,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.957009315490723,
+      "exact_effect": -0.06838321685791016
+    },
+    {
+      "flores_index": 13,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -3.2313413619995117,
+      "exact_effect": 2.657284736633301
+    },
+    {
+      "flores_index": 13,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -6.016081809997559,
+      "exact_effect": -0.1274557113647461
+    },
+    {
+      "flores_index": 13,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.972964286804199,
+      "exact_effect": -0.08433818817138672
+    },
+    {
+      "flores_index": 13,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.943979263305664,
+      "exact_effect": -0.05535316467285156
+    },
+    {
+      "flores_index": 13,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.638177871704102,
+      "exact_effect": 0.25044822692871094
+    },
+    {
+      "flores_index": 13,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.958524703979492,
+      "exact_effect": -0.06989860534667969
+    },
+    {
+      "flores_index": 13,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -5.8886260986328125,
+      "patched_metric": -5.8564653396606445,
+      "exact_effect": 0.03216075897216797
+    },
+    {
+      "flores_index": 14,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.050067901611328,
+      "exact_effect": -0.0033617019653320312
+    },
+    {
+      "flores_index": 14,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.047223091125488,
+      "exact_effect": -0.0005168914794921875
+    },
+    {
+      "flores_index": 14,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.07323169708252,
+      "exact_effect": -0.026525497436523438
+    },
+    {
+      "flores_index": 14,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.962160110473633,
+      "exact_effect": 0.08454608917236328
+    },
+    {
+      "flores_index": 14,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.619110107421875,
+      "exact_effect": 0.4275960922241211
+    },
+    {
+      "flores_index": 14,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.054983139038086,
+      "exact_effect": -0.008276939392089844
+    },
+    {
+      "flores_index": 14,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.064008712768555,
+      "exact_effect": -0.017302513122558594
+    },
+    {
+      "flores_index": 14,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.883744239807129,
+      "exact_effect": 0.1629619598388672
+    },
+    {
+      "flores_index": 14,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.075525283813477,
+      "exact_effect": -0.02881908416748047
+    },
+    {
+      "flores_index": 14,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.066313743591309,
+      "exact_effect": -0.0196075439453125
+    },
+    {
+      "flores_index": 14,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.047857284545898,
+      "exact_effect": -0.0011510848999023438
+    },
+    {
+      "flores_index": 14,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.043292999267578,
+      "exact_effect": 0.0034132003784179688
+    },
+    {
+      "flores_index": 14,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.085805892944336,
+      "exact_effect": -0.039099693298339844
+    },
+    {
+      "flores_index": 14,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.984294891357422,
+      "exact_effect": 0.06241130828857422
+    },
+    {
+      "flores_index": 14,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.067296981811523,
+      "exact_effect": -0.020590782165527344
+    },
+    {
+      "flores_index": 14,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.9913969039917,
+      "exact_effect": 0.055309295654296875
+    },
+    {
+      "flores_index": 14,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.895890235900879,
+      "exact_effect": 0.1508159637451172
+    },
+    {
+      "flores_index": 14,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.9995698928833,
+      "exact_effect": 0.04713630676269531
+    },
+    {
+      "flores_index": 14,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.039443016052246,
+      "exact_effect": 0.00726318359375
+    },
+    {
+      "flores_index": 14,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.060641288757324,
+      "exact_effect": -0.013935089111328125
+    },
+    {
+      "flores_index": 14,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.039690017700195,
+      "exact_effect": 0.007016181945800781
+    },
+    {
+      "flores_index": 14,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.030302047729492,
+      "exact_effect": 0.016404151916503906
+    },
+    {
+      "flores_index": 14,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.033256530761719,
+      "exact_effect": 0.013449668884277344
+    },
+    {
+      "flores_index": 14,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.926462173461914,
+      "exact_effect": 0.12024402618408203
+    },
+    {
+      "flores_index": 14,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.921754837036133,
+      "exact_effect": 0.12495136260986328
+    },
+    {
+      "flores_index": 14,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.057897567749023,
+      "exact_effect": -0.011191368103027344
+    },
+    {
+      "flores_index": 14,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.075800895690918,
+      "exact_effect": -0.029094696044921875
+    },
+    {
+      "flores_index": 14,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.058574676513672,
+      "exact_effect": -0.011868476867675781
+    },
+    {
+      "flores_index": 14,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -8.99744701385498,
+      "exact_effect": 0.049259185791015625
+    },
+    {
+      "flores_index": 14,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -9.046706199645996,
+      "patched_metric": -9.07683277130127,
+      "exact_effect": -0.030126571655273438
+    },
+    {
+      "flores_index": 15,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7117156982421875,
+      "exact_effect": -0.0017223358154296875
+    },
+    {
+      "flores_index": 15,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.5899906158447266,
+      "exact_effect": 0.12000274658203125
+    },
+    {
+      "flores_index": 15,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.48102378845214844,
+      "exact_effect": 0.22896957397460938
+    },
+    {
+      "flores_index": 15,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.5672359466552734,
+      "exact_effect": 0.14275741577148438
+    },
+    {
+      "flores_index": 15,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -1.3701000213623047,
+      "exact_effect": -0.6601066589355469
+    },
+    {
+      "flores_index": 15,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7342052459716797,
+      "exact_effect": -0.024211883544921875
+    },
+    {
+      "flores_index": 15,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7240962982177734,
+      "exact_effect": -0.014102935791015625
+    },
+    {
+      "flores_index": 15,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7823963165283203,
+      "exact_effect": -0.0724029541015625
+    },
+    {
+      "flores_index": 15,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.8323898315429688,
+      "exact_effect": -0.12239646911621094
+    },
+    {
+      "flores_index": 15,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.72674560546875,
+      "exact_effect": -0.016752243041992188
+    },
+    {
+      "flores_index": 15,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7099933624267578,
+      "exact_effect": 0.0
+    },
+    {
+      "flores_index": 15,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6874179840087891,
+      "exact_effect": 0.02257537841796875
+    },
+    {
+      "flores_index": 15,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6181430816650391,
+      "exact_effect": 0.09185028076171875
+    },
+    {
+      "flores_index": 15,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6256542205810547,
+      "exact_effect": 0.08433914184570312
+    },
+    {
+      "flores_index": 15,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6578121185302734,
+      "exact_effect": 0.052181243896484375
+    },
+    {
+      "flores_index": 15,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6465282440185547,
+      "exact_effect": 0.06346511840820312
+    },
+    {
+      "flores_index": 15,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7161026000976562,
+      "exact_effect": -0.0061092376708984375
+    },
+    {
+      "flores_index": 15,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7092113494873047,
+      "exact_effect": 0.000782012939453125
+    },
+    {
+      "flores_index": 15,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7030849456787109,
+      "exact_effect": 0.006908416748046875
+    },
+    {
+      "flores_index": 15,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7198963165283203,
+      "exact_effect": -0.0099029541015625
+    },
+    {
+      "flores_index": 15,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7246608734130859,
+      "exact_effect": -0.014667510986328125
+    },
+    {
+      "flores_index": 15,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.5886344909667969,
+      "exact_effect": 0.12135887145996094
+    },
+    {
+      "flores_index": 15,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.689117431640625,
+      "exact_effect": 0.020875930786132812
+    },
+    {
+      "flores_index": 15,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.9552230834960938,
+      "exact_effect": -0.24522972106933594
+    },
+    {
+      "flores_index": 15,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7352428436279297,
+      "exact_effect": -0.025249481201171875
+    },
+    {
+      "flores_index": 15,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6806240081787109,
+      "exact_effect": 0.029369354248046875
+    },
+    {
+      "flores_index": 15,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.8502941131591797,
+      "exact_effect": -0.14030075073242188
+    },
+    {
+      "flores_index": 15,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.7569713592529297,
+      "exact_effect": -0.046977996826171875
+    },
+    {
+      "flores_index": 15,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": 0.5887775421142578,
+      "exact_effect": 1.2987709045410156
+    },
+    {
+      "flores_index": 15,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -0.7099933624267578,
+      "patched_metric": -0.6797561645507812,
+      "exact_effect": 0.030237197875976562
+    },
+    {
+      "flores_index": 16,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8624343872070312,
+      "exact_effect": 0.00054931640625
+    },
+    {
+      "flores_index": 16,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.807467460632324,
+      "exact_effect": 0.05551624298095703
+    },
+    {
+      "flores_index": 16,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.915567398071289,
+      "exact_effect": -0.05258369445800781
+    },
+    {
+      "flores_index": 16,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.9739608764648438,
+      "exact_effect": -0.1109771728515625
+    },
+    {
+      "flores_index": 16,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.913527488708496,
+      "exact_effect": -0.050543785095214844
+    },
+    {
+      "flores_index": 16,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8616981506347656,
+      "exact_effect": 0.001285552978515625
+    },
+    {
+      "flores_index": 16,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.86785888671875,
+      "exact_effect": -0.00487518310546875
+    },
+    {
+      "flores_index": 16,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.928849220275879,
+      "exact_effect": -0.06586551666259766
+    },
+    {
+      "flores_index": 16,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.873368263244629,
+      "exact_effect": -0.010384559631347656
+    },
+    {
+      "flores_index": 16,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.837360382080078,
+      "exact_effect": 0.025623321533203125
+    },
+    {
+      "flores_index": 16,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8579702377319336,
+      "exact_effect": 0.005013465881347656
+    },
+    {
+      "flores_index": 16,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8478899002075195,
+      "exact_effect": 0.015093803405761719
+    },
+    {
+      "flores_index": 16,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8889665603637695,
+      "exact_effect": -0.02598285675048828
+    },
+    {
+      "flores_index": 16,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.862262725830078,
+      "exact_effect": 0.000720977783203125
+    },
+    {
+      "flores_index": 16,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.862018585205078,
+      "exact_effect": 0.000965118408203125
+    },
+    {
+      "flores_index": 16,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8481521606445312,
+      "exact_effect": 0.01483154296875
+    },
+    {
+      "flores_index": 16,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8195934295654297,
+      "exact_effect": 0.04339027404785156
+    },
+    {
+      "flores_index": 16,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.863903045654297,
+      "exact_effect": -0.000919342041015625
+    },
+    {
+      "flores_index": 16,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8679189682006836,
+      "exact_effect": -0.004935264587402344
+    },
+    {
+      "flores_index": 16,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.927339553833008,
+      "exact_effect": -0.06435585021972656
+    },
+    {
+      "flores_index": 16,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.784921646118164,
+      "exact_effect": 0.07806205749511719
+    },
+    {
+      "flores_index": 16,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8658742904663086,
+      "exact_effect": -0.0028905868530273438
+    },
+    {
+      "flores_index": 16,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.860738754272461,
+      "exact_effect": 0.0022449493408203125
+    },
+    {
+      "flores_index": 16,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -4.585721015930176,
+      "exact_effect": -1.7227373123168945
+    },
+    {
+      "flores_index": 16,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8622474670410156,
+      "exact_effect": 0.000736236572265625
+    },
+    {
+      "flores_index": 16,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8566980361938477,
+      "exact_effect": 0.006285667419433594
+    },
+    {
+      "flores_index": 16,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8867931365966797,
+      "exact_effect": -0.023809432983398438
+    },
+    {
+      "flores_index": 16,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8571395874023438,
+      "exact_effect": 0.0058441162109375
+    },
+    {
+      "flores_index": 16,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.8994007110595703,
+      "exact_effect": -0.03641700744628906
+    },
+    {
+      "flores_index": 16,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -2.8629837036132812,
+      "patched_metric": -2.871715545654297,
+      "exact_effect": -0.008731842041015625
+    },
+    {
+      "flores_index": 17,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.153360366821289,
+      "exact_effect": 0.8736286163330078
+    },
+    {
+      "flores_index": 17,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.006948471069336,
+      "exact_effect": 0.020040512084960938
+    },
+    {
+      "flores_index": 17,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.836908340454102,
+      "exact_effect": 0.1900806427001953
+    },
+    {
+      "flores_index": 17,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.997267723083496,
+      "exact_effect": 0.02972126007080078
+    },
+    {
+      "flores_index": 17,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.037039756774902,
+      "exact_effect": -0.010050773620605469
+    },
+    {
+      "flores_index": 17,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.990691184997559,
+      "exact_effect": 0.03629779815673828
+    },
+    {
+      "flores_index": 17,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.886402130126953,
+      "exact_effect": 0.14058685302734375
+    },
+    {
+      "flores_index": 17,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.908383369445801,
+      "exact_effect": 0.1186056137084961
+    },
+    {
+      "flores_index": 17,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.049057960510254,
+      "exact_effect": -0.02206897735595703
+    },
+    {
+      "flores_index": 17,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.0049896240234375,
+      "exact_effect": 0.021999359130859375
+    },
+    {
+      "flores_index": 17,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.978228569030762,
+      "exact_effect": 0.048760414123535156
+    },
+    {
+      "flores_index": 17,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.998213768005371,
+      "exact_effect": 0.02877521514892578
+    },
+    {
+      "flores_index": 17,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.007504463195801,
+      "exact_effect": 0.019484519958496094
+    },
+    {
+      "flores_index": 17,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.9977827072143555,
+      "exact_effect": 0.029206275939941406
+    },
+    {
+      "flores_index": 17,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.046446800231934,
+      "exact_effect": -0.01945781707763672
+    },
+    {
+      "flores_index": 17,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.001729965209961,
+      "exact_effect": 0.025259017944335938
+    },
+    {
+      "flores_index": 17,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.955471992492676,
+      "exact_effect": 0.0715169906616211
+    },
+    {
+      "flores_index": 17,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.965197563171387,
+      "exact_effect": 0.061791419982910156
+    },
+    {
+      "flores_index": 17,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.075954437255859,
+      "exact_effect": -0.0489654541015625
+    },
+    {
+      "flores_index": 17,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.033914566040039,
+      "exact_effect": -0.0069255828857421875
+    },
+    {
+      "flores_index": 17,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.883639335632324,
+      "exact_effect": 0.14334964752197266
+    },
+    {
+      "flores_index": 17,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.008999824523926,
+      "exact_effect": 0.017989158630371094
+    },
+    {
+      "flores_index": 17,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.986167907714844,
+      "exact_effect": 0.040821075439453125
+    },
+    {
+      "flores_index": 17,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -2.9457035064697266,
+      "exact_effect": 2.0812854766845703
+    },
+    {
+      "flores_index": 17,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.061541557312012,
+      "exact_effect": -0.034552574157714844
+    },
+    {
+      "flores_index": 17,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.0869646072387695,
+      "exact_effect": -0.059975624084472656
+    },
+    {
+      "flores_index": 17,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.981250762939453,
+      "exact_effect": 0.04573822021484375
+    },
+    {
+      "flores_index": 17,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.031431198120117,
+      "exact_effect": -0.0044422149658203125
+    },
+    {
+      "flores_index": 17,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -5.035616874694824,
+      "exact_effect": -0.008627891540527344
+    },
+    {
+      "flores_index": 17,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -5.026988983154297,
+      "patched_metric": -4.9335737228393555,
+      "exact_effect": 0.0934152603149414
+    },
+    {
+      "flores_index": 18,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.513456344604492,
+      "exact_effect": -0.1776256561279297
+    },
+    {
+      "flores_index": 18,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.359169006347656,
+      "exact_effect": -0.02333831787109375
+    },
+    {
+      "flores_index": 18,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.152402877807617,
+      "exact_effect": 0.1834278106689453
+    },
+    {
+      "flores_index": 18,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -3.97418212890625,
+      "exact_effect": 0.3616485595703125
+    },
+    {
+      "flores_index": 18,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.181560516357422,
+      "exact_effect": 0.15427017211914062
+    },
+    {
+      "flores_index": 18,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.368629455566406,
+      "exact_effect": -0.03279876708984375
+    },
+    {
+      "flores_index": 18,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.207696914672852,
+      "exact_effect": 0.12813377380371094
+    },
+    {
+      "flores_index": 18,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -3.4507999420166016,
+      "exact_effect": 0.8850307464599609
+    },
+    {
+      "flores_index": 18,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.331258773803711,
+      "exact_effect": 0.0045719146728515625
+    },
+    {
+      "flores_index": 18,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.308145523071289,
+      "exact_effect": 0.027685165405273438
+    },
+    {
+      "flores_index": 18,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.364738464355469,
+      "exact_effect": -0.02890777587890625
+    },
+    {
+      "flores_index": 18,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.334678649902344,
+      "exact_effect": 0.00115203857421875
+    },
+    {
+      "flores_index": 18,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.081439971923828,
+      "exact_effect": 0.2543907165527344
+    },
+    {
+      "flores_index": 18,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.154546737670898,
+      "exact_effect": 0.18128395080566406
+    },
+    {
+      "flores_index": 18,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.2939300537109375,
+      "exact_effect": 0.041900634765625
+    },
+    {
+      "flores_index": 18,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.064081192016602,
+      "exact_effect": 0.27174949645996094
+    },
+    {
+      "flores_index": 18,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.3276519775390625,
+      "exact_effect": 0.0081787109375
+    },
+    {
+      "flores_index": 18,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.333879470825195,
+      "exact_effect": 0.0019512176513671875
+    },
+    {
+      "flores_index": 18,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.319799423217773,
+      "exact_effect": 0.016031265258789062
+    },
+    {
+      "flores_index": 18,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.672630310058594,
+      "exact_effect": -0.33679962158203125
+    },
+    {
+      "flores_index": 18,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.393970489501953,
+      "exact_effect": -0.058139801025390625
+    },
+    {
+      "flores_index": 18,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.398120880126953,
+      "exact_effect": -0.062290191650390625
+    },
+    {
+      "flores_index": 18,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.353357315063477,
+      "exact_effect": -0.017526626586914062
+    },
+    {
+      "flores_index": 18,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.698830604553223,
+      "exact_effect": -0.36299991607666016
+    },
+    {
+      "flores_index": 18,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.110429763793945,
+      "exact_effect": 0.2254009246826172
+    },
+    {
+      "flores_index": 18,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.401237487792969,
+      "exact_effect": -0.06540679931640625
+    },
+    {
+      "flores_index": 18,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.333398818969727,
+      "exact_effect": 0.0024318695068359375
+    },
+    {
+      "flores_index": 18,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.341407775878906,
+      "exact_effect": -0.00557708740234375
+    },
+    {
+      "flores_index": 18,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.372592926025391,
+      "exact_effect": -0.036762237548828125
+    },
+    {
+      "flores_index": 18,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -4.3358306884765625,
+      "patched_metric": -4.414175033569336,
+      "exact_effect": -0.07834434509277344
+    },
+    {
+      "flores_index": 19,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.287017822265625,
+      "exact_effect": 0.001293182373046875
+    },
+    {
+      "flores_index": 19,
+      "layer": 24,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2626667022705078,
+      "exact_effect": 0.025644302368164062
+    },
+    {
+      "flores_index": 19,
+      "layer": 15,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.445669174194336,
+      "exact_effect": -0.15735816955566406
+    },
+    {
+      "flores_index": 19,
+      "layer": 19,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -0.8521709442138672,
+      "exact_effect": 0.4361400604248047
+    },
+    {
+      "flores_index": 19,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -3.027592658996582,
+      "exact_effect": -1.7392816543579102
+    },
+    {
+      "flores_index": 19,
+      "layer": 15,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3223876953125,
+      "exact_effect": -0.034076690673828125
+    },
+    {
+      "flores_index": 19,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3227310180664062,
+      "exact_effect": -0.034420013427734375
+    },
+    {
+      "flores_index": 19,
+      "layer": 25,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.1857337951660156,
+      "exact_effect": 0.10257720947265625
+    },
+    {
+      "flores_index": 19,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3822383880615234,
+      "exact_effect": -0.09392738342285156
+    },
+    {
+      "flores_index": 19,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 11,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2799205780029297,
+      "exact_effect": 0.008390426635742188
+    },
+    {
+      "flores_index": 19,
+      "layer": 19,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.1547203063964844,
+      "exact_effect": 0.1335906982421875
+    },
+    {
+      "flores_index": 19,
+      "layer": 4,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3851451873779297,
+      "exact_effect": -0.09683418273925781
+    },
+    {
+      "flores_index": 19,
+      "layer": 27,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -0.9735355377197266,
+      "exact_effect": 0.3147754669189453
+    },
+    {
+      "flores_index": 19,
+      "layer": 8,
+      "projection": "k_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3917236328125,
+      "exact_effect": -0.10341262817382812
+    },
+    {
+      "flores_index": 19,
+      "layer": 0,
+      "projection": "q_proj",
+      "head": 2,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2999000549316406,
+      "exact_effect": -0.01158905029296875
+    },
+    {
+      "flores_index": 19,
+      "layer": 8,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.4440288543701172,
+      "exact_effect": -0.1557178497314453
+    },
+    {
+      "flores_index": 19,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2676467895507812,
+      "exact_effect": 0.020664215087890625
+    },
+    {
+      "flores_index": 19,
+      "layer": 22,
+      "projection": "q_proj",
+      "head": 7,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2894554138183594,
+      "exact_effect": -0.0011444091796875
+    },
+    {
+      "flores_index": 19,
+      "layer": 27,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2880916595458984,
+      "exact_effect": 0.0002193450927734375
+    },
+    {
+      "flores_index": 19,
+      "layer": 5,
+      "projection": "q_proj",
+      "head": 9,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2806434631347656,
+      "exact_effect": 0.00766754150390625
+    },
+    {
+      "flores_index": 19,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2020454406738281,
+      "exact_effect": 0.08626556396484375
+    },
+    {
+      "flores_index": 19,
+      "layer": 26,
+      "projection": "v_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2721824645996094,
+      "exact_effect": 0.0161285400390625
+    },
+    {
+      "flores_index": 19,
+      "layer": 21,
+      "projection": "k_proj",
+      "head": 0,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2851371765136719,
+      "exact_effect": 0.003173828125
+    },
+    {
+      "flores_index": 19,
+      "layer": 0,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -2.053621292114258,
+      "exact_effect": -0.7653102874755859
+    },
+    {
+      "flores_index": 19,
+      "layer": 11,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.1312503814697266,
+      "exact_effect": 0.1570606231689453
+    },
+    {
+      "flores_index": 19,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 8,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3448905944824219,
+      "exact_effect": -0.05657958984375
+    },
+    {
+      "flores_index": 19,
+      "layer": 26,
+      "projection": "q_proj",
+      "head": 10,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.4625682830810547,
+      "exact_effect": -0.1742572784423828
+    },
+    {
+      "flores_index": 19,
+      "layer": 27,
+      "projection": "q_proj",
+      "head": 5,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2496509552001953,
+      "exact_effect": 0.03866004943847656
+    },
+    {
+      "flores_index": 19,
+      "layer": 24,
+      "projection": "v_proj",
+      "head": 1,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.2883033752441406,
+      "exact_effect": 7.62939453125e-06
+    },
+    {
+      "flores_index": 19,
+      "layer": 21,
+      "projection": "q_proj",
+      "head": 6,
+      "baseline_metric": -1.2883110046386719,
+      "patched_metric": -1.3284530639648438,
+      "exact_effect": -0.040142059326171875
+    }
+  ]
+}

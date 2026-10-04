@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "language_pair": "en->es",
+  "selected_heads": {
+    "16": [
+      9
+    ],
+    "17": [
+      7
+    ],
+    "22": [
+      6
+    ],
+    "25": [
+      10
+    ],
+    "27": [
+      6
+    ]
+  },
+  "discovery_indices": [
+    0,
+    29
+  ],
+  "holdout_start": 100,
+  "n_holdout_pairs": 50,
+  "n_random_controls": 100,
+  "sufficiency": {
+    "mean": 1.2215552139282226,
+    "bootstrap_95_ci": [
+      1.0542134580612184,
+      1.398344286441803
+    ],
+    "random_95th_percentile": 0.09886851692199707,
+    "percentile_vs_random": 100.0,
+    "pass": true
+  },
+  "necessity": {
+    "mean": 0.8613266563415527,
+    "bootstrap_95_ci": [
+      0.40617797279357915,
+      1.3957760958671568
+    ],
+    "random_95th_percentile": 0.11012877082824706,
+    "percentile_vs_random": 100.0,
+    "pass": true
+  },
+  "overall_pass": true
+}

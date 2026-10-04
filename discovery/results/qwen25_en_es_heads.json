@@ -1,0 +1,24 @@
+{
+  "heads": {
+    "16": [
+      9
+    ],
+    "17": [
+      7
+    ],
+    "22": [
+      6
+    ],
+    "25": [
+      10
+    ],
+    "27": [
+      6
+    ]
+  },
+  "model": "Qwen/Qwen2.5-1.5B",
+  "language_pair": "en->es",
+  "activation_site": "attention head output before o_proj",
+  "discovery_examples": 30,
+  "heldout_examples": 50
+}
