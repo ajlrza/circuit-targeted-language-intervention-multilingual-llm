@@ -1,5 +1,5 @@
 {
-  "signal_floor": 0.0001,
+  "signal_floor": 0.0,
   "epsilons": [
     0.3,
     0.1,
@@ -17,24 +17,24 @@
   ],
   "gqa_structure_ok": true,
   "k_proj": {
-    "n_meaningful_curves": 10,
-    "median_slope": 0.8587533206553926,
-    "fraction_slope_gt_1_5": 0.0,
-    "median_relative_error": 0.011804674372167728,
-    "p90_relative_error": 0.01634958989240592,
-    "max_relative_error": 0.01681324211542191,
+    "n_meaningful_curves": 36,
+    "median_slope": 1.999999513477381,
+    "fraction_slope_gt_1_5": 1.0,
+    "median_relative_error": 2.3014005692512888e-05,
+    "p90_relative_error": 0.0008005041431960996,
+    "max_relative_error": 0.006062037663890632,
     "sign_agreement_rate": 1.0
   },
   "v_proj": {
     "n_meaningful_curves": 36,
-    "median_slope": 2.006607997779675,
-    "fraction_slope_gt_1_5": 0.9444444444444444,
-    "median_relative_error": 0.00017309004284001917,
-    "p90_relative_error": 0.001156263419237768,
-    "max_relative_error": 0.004526002525770627,
+    "median_slope": 1.9985754050694482,
+    "fraction_slope_gt_1_5": 1.0,
+    "median_relative_error": 0.00015793150042439478,
+    "p90_relative_error": 0.0006051766045543591,
+    "max_relative_error": 0.0036153091857825956,
     "sign_agreement_rate": 1.0
   },
-  "k_pass": false,
+  "k_pass": true,
   "v_pass": true,
-  "pass": false
+  "pass": true
 }

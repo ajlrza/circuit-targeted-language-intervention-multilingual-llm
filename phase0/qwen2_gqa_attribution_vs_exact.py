@@ -5,6 +5,17 @@ from pathlib import Path
 import numpy as np
 import torch
 from transformers import Qwen2Config, Qwen2ForCausalLM
+from transformers.models.qwen2.modeling_qwen2 import Qwen2RMSNorm
+
+
+def rmsnorm_native_dtype(self, x):
+    variance = x.pow(2).mean(-1, keepdim=True)
+    return self.weight * (
+        x * torch.rsqrt(variance + self.variance_epsilon)
+    )
+
+
+Qwen2RMSNorm.forward = rmsnorm_native_dtype
 
 DEVICE = "cpu"
 DTYPE = torch.float64
@@ -29,7 +40,7 @@ TARGET_TOKEN = 7
 FOIL_TOKEN = 11
 
 # Cases below this are reported but excluded from convergence pass/fail
-SIGNAL_FLOOR = 1e-4
+SIGNAL_FLOOR = 0.0
 
 RESULTS_DIR = Path(__file__).parent / "results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -73,6 +84,7 @@ def build_model(seed):
         eos_token_id=2,
         pad_token_id=0,
         tie_word_embeddings=False,
+        _attn_implementation="sdpa",
     )
 
     model = Qwen2ForCausalLM(config).to(
@@ -80,10 +92,6 @@ def build_model(seed):
         dtype=DTYPE,
     )
     model.eval()
-
-    # Force transparent attention path
-    if hasattr(model.config, "_attn_implementation"):
-        model.config._attn_implementation = "eager"
 
     return model, config
 
