@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "dtype": "torch.float64",
+  "model": {
+    "architecture": "tiny random GPT-2",
+    "layers": 2,
+    "heads": 2,
+    "hidden_size": 32,
+    "vocab_size": 64
+  },
+  "metric": "target-token logit minus foil-token logit",
+  "patch_site": "residual stream between transformer blocks 0 and 1, final prompt position",
+  "baseline_metric": -0.3064693203474437,
+  "gradient_norm": 4.280375497754848,
+  "rows": [
+    {
+      "epsilon": 0.1,
+      "predicted_delta": 0.4280375497754849,
+      "exact_delta": 0.4002015932143153,
+      "absolute_error": 0.027835956561169606,
+      "relative_error": 0.06955483694504669,
+      "sign_agreement": true
+    },
+    {
+      "epsilon": 0.03,
+      "predicted_delta": 0.12841126493264546,
+      "exact_delta": 0.1308358657754724,
+      "absolute_error": 0.002424600842826946,
+      "relative_error": 0.01853162226164962,
+      "sign_agreement": true
+    },
+    {
+      "epsilon": 0.01,
+      "predicted_delta": 0.04280375497754849,
+      "exact_delta": 0.043274075868328654,
+      "absolute_error": 0.0004703208907801612,
+      "relative_error": 0.010868421366437052,
+      "sign_agreement": true
+    },
+    {
+      "epsilon": 0.003,
+      "predicted_delta": 0.012841126493264545,
+      "exact_delta": 0.012889813253728843,
+      "absolute_error": 4.8686760464298345e-05,
+      "relative_error": 0.0037771501809938128,
+      "sign_agreement": true
+    },
+    {
+      "epsilon": 0.001,
+      "predicted_delta": 0.004280375497754849,
+      "exact_delta": 0.00428598541322911,
+      "absolute_error": 5.609915474260804e-06,
+      "relative_error": 0.0013088974724331202,
+      "sign_agreement": true
+    }
+  ],
+  "taylor_error_loglog_slope": 1.7821163792070192,
+  "smallest_relative_error": 0.0013088974724331202,
+  "all_signs_agree": true,
+  "pass": true
+}

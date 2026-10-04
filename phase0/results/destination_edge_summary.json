@@ -1,0 +1,72 @@
+{
+  "device": "cpu",
+  "dtype": "torch.float64",
+  "seeds": [
+    42,
+    123,
+    999
+  ],
+  "architecture": {
+    "type": "edge-explicit transformer-like toy network",
+    "d_model": 24,
+    "d_head": 8,
+    "n_source_nodes": 3,
+    "n_destination_nodes": 3
+  },
+  "metric": "target logit minus foil logit",
+  "edge_semantics": "patch one explicit source->destination message only",
+  "epsilons": [
+    0.1,
+    0.03,
+    0.01,
+    0.003,
+    0.001
+  ],
+  "signs": [
+    -1,
+    1
+  ],
+  "minimum_abs_linear_effect": 1e-06,
+  "n_curves": 54,
+  "n_exact_edge_interventions": 270,
+  "median_taylor_error_slope": 1.9995776047934464,
+  "fraction_curves_slope_gt_1_5": 1.0,
+  "median_smallest_relative_error": 0.0005608399189708553,
+  "p90_smallest_relative_error": 0.002415158681140828,
+  "max_smallest_relative_error": 0.011870756849481398,
+  "small_epsilon_sign_agreement_rate": 1.0,
+  "destination_vs_broadcast_distinct_rate": 1.0,
+  "seed_summaries": [
+    {
+      "seed": 42,
+      "retained_edges": 9,
+      "curves": 18,
+      "median_slope": 2.0000636176377458,
+      "fraction_slope_gt_1_5": 1.0,
+      "median_smallest_relative_error": 0.0003584732111897997,
+      "max_smallest_relative_error": 0.0024503068543734567,
+      "small_epsilon_sign_agreement_rate": 1.0
+    },
+    {
+      "seed": 123,
+      "retained_edges": 9,
+      "curves": 18,
+      "median_slope": 2.0027903311721484,
+      "fraction_slope_gt_1_5": 1.0,
+      "median_smallest_relative_error": 0.0009669729194315792,
+      "max_smallest_relative_error": 0.011870756849481398,
+      "small_epsilon_sign_agreement_rate": 1.0
+    },
+    {
+      "seed": 999,
+      "retained_edges": 9,
+      "curves": 18,
+      "median_slope": 1.9991980824137232,
+      "fraction_slope_gt_1_5": 1.0,
+      "median_smallest_relative_error": 0.0006002815133773892,
+      "max_smallest_relative_error": 0.0030056710483368303,
+      "small_epsilon_sign_agreement_rate": 1.0
+    }
+  ],
+  "pass": true
+}

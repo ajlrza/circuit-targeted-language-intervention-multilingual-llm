@@ -1,0 +1,40 @@
+{
+  "signal_floor": 0.0,
+  "epsilons": [
+    0.3,
+    0.1,
+    0.03,
+    0.01,
+    0.003
+  ],
+  "query_heads": 4,
+  "kv_heads": 2,
+  "query_to_kv": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "gqa_structure_ok": true,
+  "k_proj": {
+    "n_meaningful_curves": 36,
+    "median_slope": 1.999999513477381,
+    "fraction_slope_gt_1_5": 1.0,
+    "median_relative_error": 2.3014005692512888e-05,
+    "p90_relative_error": 0.0008005041431960996,
+    "max_relative_error": 0.006062037663890632,
+    "sign_agreement_rate": 1.0
+  },
+  "v_proj": {
+    "n_meaningful_curves": 36,
+    "median_slope": 1.9985754050694482,
+    "fraction_slope_gt_1_5": 1.0,
+    "median_relative_error": 0.00015793150042439478,
+    "p90_relative_error": 0.0006051766045543591,
+    "max_relative_error": 0.0036153091857825956,
+    "sign_agreement_rate": 1.0
+  },
+  "k_pass": true,
+  "v_pass": true,
+  "pass": true
+}
