@@ -1,0 +1,112 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "language_pair": "en->es",
+  "activation_site": "attention head output before o_proj",
+  "heads": {
+    "16": [
+      9
+    ],
+    "17": [
+      7
+    ],
+    "22": [
+      6
+    ],
+    "25": [
+      10
+    ],
+    "27": [
+      6
+    ]
+  },
+  "validated_paths": [
+    {
+      "source": {
+        "layer": 16,
+        "head": 9
+      },
+      "destination": {
+        "layer": 25,
+        "head": 10
+      },
+      "discovery_mean_effect": 0.007166,
+      "holdout_mean_effect": 0.007188,
+      "holdout_95_ci": [
+        0.001011,
+        0.013493
+      ],
+      "matched_random_95th_percentile": 0.000674
+    },
+    {
+      "source": {
+        "layer": 17,
+        "head": 7
+      },
+      "destination": {
+        "layer": 25,
+        "head": 10
+      },
+      "discovery_mean_effect": 0.010844,
+      "holdout_mean_effect": 0.012894,
+      "holdout_95_ci": [
+        0.007674,
+        0.018519
+      ],
+      "matched_random_95th_percentile": 0.000294
+    },
+    {
+      "source": {
+        "layer": 22,
+        "head": 6
+      },
+      "destination": {
+        "layer": 25,
+        "head": 10
+      },
+      "discovery_mean_effect": 0.009696,
+      "holdout_mean_effect": 0.007775,
+      "holdout_95_ci": [
+        0.003792,
+        0.012045
+      ],
+      "matched_random_95th_percentile": 0.000957
+    }
+  ],
+  "convergence_motif": {
+    "sources": [
+      {
+        "layer": 16,
+        "head": 9
+      },
+      {
+        "layer": 17,
+        "head": 7
+      },
+      {
+        "layer": 22,
+        "head": 6
+      }
+    ],
+    "destination": {
+      "layer": 25,
+      "head": 10
+    },
+    "holdout_mean_effect": 0.014578,
+    "holdout_95_ci": [
+      0.006112,
+      0.023994
+    ],
+    "random_source_95th_percentile": 0.001695,
+    "random_destination_95th_percentile": 0.004718,
+    "source_control_pass": true,
+    "destination_control_pass": true
+  },
+  "evaluation_splits": {
+    "head_discovery": "FLORES devtest indices 0-29",
+    "head_holdout": "FLORES devtest indices 100-149",
+    "path_discovery": "FLORES devtest indices 200-229",
+    "path_holdout": "FLORES devtest indices 300-339",
+    "motif_holdout": "FLORES devtest indices 400-439"
+  },
+  "scope": "Single-language-pair Qwen2.5-1.5B pilot. Additional language-pair replication remains required."
+}
