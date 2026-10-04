@@ -1,0 +1,93 @@
+from contextlib import contextmanager
+
+import torch
+
+
+def head_dim(cfg):
+    return getattr(cfg, "head_dim", None) or cfg.hidden_size // cfg.num_attention_heads
+
+
+def head_contributions(o_proj, z, n_heads, dh):
+    # (B, T, H*DH) o_proj input -> (B, T, H, D)
+    W = o_proj.weight.view(o_proj.out_features, n_heads, dh)
+    return torch.einsum("bthk,dhk->bthd", z.view(*z.shape[:2], n_heads, dh), W)
+
+
+def _coef(coef, layer):
+    return coef[layer] if isinstance(coef, dict) else coef
+
+
+class ResidualSteer:
+    # h <- h + c ((h - mu) . v) v on decoder layer outputs, as in the 2510.13849 code
+    def __init__(self, layers, coef, means, dirs):
+        self.layers, self.coef, self.means, self.dirs = layers, coef, means, dirs
+
+    def attach(self, model):
+        w = model.model.embed_tokens.weight
+        handles = []
+        for l in self.layers:
+            mu, v, c = self.means[l].to(w), self.dirs[l].to(w), _coef(self.coef, l)
+
+            def fn(module, inputs, output, mu=mu, v=v, c=c):
+                h = output[0] if isinstance(output, tuple) else output
+                h = h + c * ((h - mu) @ v)[..., None] * v
+                return (h, *output[1:]) if isinstance(output, tuple) else h
+
+            handles.append(model.model.layers[l].register_forward_hook(fn))
+        return handles
+
+
+class HeadSteer:
+    # same transform through the selected heads only: c_h <- c_h + c (c_h . v) v
+    def __init__(self, heads, coef, dirs):
+        self.heads, self.coef, self.dirs = heads, coef, dirs
+
+    def attach(self, model):
+        H, DH = model.config.num_attention_heads, head_dim(model.config)
+        handles = []
+        for l, hs in self.heads.items():
+            o = model.model.layers[l].self_attn.o_proj
+            v = self.dirs[l].to(o.weight)
+            # sum_h c_h . v = z . u, with u = W_O^h^T v on the selected heads and 0 elsewhere
+            u = torch.zeros(H * DH, device=v.device, dtype=v.dtype)
+            for h in hs:
+                u[h * DH:(h + 1) * DH] = o.weight[:, h * DH:(h + 1) * DH].T @ v
+            c = _coef(self.coef, l)
+
+            def fn(module, inputs, output, u=u, v=v, c=c):
+                return output + c * (inputs[0] @ u)[..., None] * v
+
+            handles.append(o.register_forward_hook(fn))
+        return handles
+
+
+class HeadScale:
+    def __init__(self, heads, alpha):
+        self.heads, self.alpha = heads, alpha
+
+    def attach(self, model):
+        DH = head_dim(model.config)
+        handles = []
+        for l, hs in self.heads.items():
+            o = model.model.layers[l].self_attn.o_proj
+            scale = torch.ones(o.in_features, device=o.weight.device, dtype=o.weight.dtype)
+            for h in hs:
+                scale[h * DH:(h + 1) * DH] = _coef(self.alpha, l)
+
+            def fn(module, inputs, scale=scale):
+                return (inputs[0] * scale, *inputs[1:])
+
+            handles.append(o.register_forward_pre_hook(fn))
+        return handles
+
+
+@contextmanager
+def applied(model, *interventions):
+    handles = []
+    try:
+        for iv in interventions:
+            handles += iv.attach(model)
+        yield
+    finally:
+        for h in handles:
+            h.remove()

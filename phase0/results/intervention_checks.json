@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "dtype": "torch.float64",
+  "tolerance": 1e-10,
+  "model": {
+    "architecture": "tiny random Qwen2",
+    "layers": 2,
+    "query_heads": 4,
+    "kv_heads": 2,
+    "head_dim": 8,
+    "hidden_size": 32
+  },
+  "results": {
+    "decomposition": {
+      "max_abs_diff": 1.7763568394002505e-15,
+      "pass": true
+    },
+    "head_steering": {
+      "all_positions": {
+        "max_abs_diff_head_vs_residual": 7.105427357601002e-15,
+        "logit_change_vs_clean": 2.8174242563959337,
+        "pass": true
+      },
+      "last_position": {
+        "max_abs_diff_head_vs_residual": 5.773159728050814e-15,
+        "logit_change_vs_clean": 2.564770453228089,
+        "pass": true
+      }
+    },
+    "value_bias_edit": {
+      "query_heads_reached": [
+        2,
+        3
+      ],
+      "max_abs_diff_edit_vs_constant_residual": 5.773159728050814e-15,
+      "logit_change_vs_clean": 5.224021501900213,
+      "pass": true
+    },
+    "projection_edit": {
+      "v_component_before": 1.3644896531479154,
+      "v_component_after": 5.551115123125783e-16,
+      "max_abs_diff_other_heads": 0.0,
+      "max_abs_diff_vs_projected_clean": 2.220446049250313e-15,
+      "pass": true
+    },
+    "head_scaling": {
+      "alpha1_vs_clean": 0.0,
+      "alpha0_vs_zeroed_W_O": 0.0,
+      "alpha2_extra_vs_head_contribution": 7.993605777301127e-15,
+      "pass": true
+    },
+    "input_dependence": {
+      "position_variation": {
+        "head_steering": 1.7104018437218945e-15,
+        "value_bias_edit": 1.4682567435682657e-15,
+        "projection_edit": 2.2848335050604396,
+        "head_scaling": 1.620124387544893
+      },
+      "pass": true
+    }
+  },
+  "pass": true
+}
