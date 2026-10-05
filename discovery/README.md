@@ -97,3 +97,75 @@ These results establish a held-out EN→ES pilot circuit in Qwen2.5-1.5B.
 Replication across additional language pairs and downstream intervention
 evaluation are required before making broader claims about multilingual
 language-identity circuitry.
+
+## Reproducing the discovery pipeline
+
+The discovery code can be run as Python modules from the repository root.
+FLORES-200 is downloaded and extracted under `discovery/data/` when it is
+not already available. The data directory is ignored by Git.
+
+The EN→ES objective uses the fixed English and Spanish token sets stored in
+`results/en_es_language_metric.json` so repeated runs use the same metric.
+
+### Head discovery
+
+Run the 30-example attention-head discovery experiment with:
+
+```bash
+python -m discovery.run_head_discovery \
+  --start 0 \
+  --n-examples 30 \
+  --top-k 30 \
+  --out results/discovery_repro/head_discovery_full.json
+```
+
+The script screens attention-head outputs with first-order attribution and
+then evaluates the top 30 candidates with exact activation patching.
+
+For Qwen2.5-1.5B on the EN→ES experiment, this produces:
+
+- Spearman rho = 0.8411568409 between mean attribution and exact effects
+- L16H9
+- L17H7
+- L22H6
+- L25H10
+- L27H6
+
+Heads are selected when their mean exact effect is at least +0.10 and their
+attribution/exact sign agreement is at least 0.75.
+
+### Source-to-destination path validation
+
+Run the source-to-destination path analysis with:
+
+```bash
+python -m discovery.run_path_validation \
+  --start 200 \
+  --n-examples 30 \
+  --out results/discovery_repro/path_validation_full.json
+```
+
+For every earlier-to-later pair among the selected heads, the script patches
+the Spanish source-head activation into the English run, lets the intervention
+propagate through the model, captures the resulting destination-head output,
+and then patches that destination head into an otherwise unchanged English run.
+
+The EN→ES experiment gives a Spearman correlation of 0.9998406649 across
+example-path attribution and exact effects, and 1.0 across path means.
+
+The largest path effects are:
+
+- L17H7 → L25H10: +0.010844
+- L22H6 → L25H10: +0.009696
+- L22H6 → L27H6: +0.007898
+- L16H9 → L25H10: +0.007166
+- L16H9 → L27H6: -0.004845
+
+Additional held-out validation results and matched-control comparisons are
+stored under `discovery/results/`.
+
+### Generated outputs
+
+The commands above write generated outputs under the repository-level
+`results/` directory. That directory is ignored by Git. The validated
+experiment artifacts under `discovery/results/` remain unchanged.
