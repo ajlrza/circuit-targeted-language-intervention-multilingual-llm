@@ -1,0 +1,34 @@
+name: language_grid
+output_root: results/experiments
+runner: intervention.run_pilot
+models:
+  qwen25: Qwen/Qwen2.5-1.5B
+defaults:
+  dtype: float32
+  n_fit: 200
+  n_eval: 200
+  n_ppl: 200
+  max_new_tokens: 60
+  batch_size: 32
+  steer_layers: [26, 27]
+  resid_own_coefs: [-1]
+  head_coefs: [-1, -3, -10]
+  head_min_layer: 14
+  top_k: 5
+  n_random: 10
+  n_nearby: 5
+  seed: 0
+  on_missing_heads: standin
+  heads_json: discovery/results/{model}_en_{lang}_heads.json
+matrix:
+  model: [qwen25]
+  lang: [es, ru, zh, hi]
+overrides:
+  - match: {lang: es}
+    set: {resid_coefs: [-2.8, -1, 1]}
+  - match: {lang: ru}
+    set: {resid_coefs: [-2.2, -1, 1]}
+  - match: {lang: zh}
+    set: {resid_coefs: [-3.2, -1, 1]}
+  - match: {lang: hi}
+    set: {resid_coefs: [5.0, -1, 1]}
